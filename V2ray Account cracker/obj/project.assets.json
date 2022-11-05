@@ -1,11 +1,69 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {}
+    "net6.0-windows7.0": {
+      "Leaf.xNet/5.2.10": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Leaf.xNet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Leaf.xNet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ThreadGun/1.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/ThreadGun.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/ThreadGun.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Leaf.xNet/5.2.10": {
+      "sha512": "Oze0nomQponksY0Cc4KtaqHCAqzaIeIaFXKz8m/F4gnRARtIjUlUYl6+jYETBqwChEFkz/0jH4iGS+M5dn8TFQ==",
+      "type": "package",
+      "path": "leaf.xnet/5.2.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "leaf.xnet.5.2.10.nupkg.sha512",
+        "leaf.xnet.nuspec",
+        "lib/net45/Leaf.xNet.dll",
+        "lib/net45/Leaf.xNet.xml",
+        "lib/netstandard2.0/Leaf.xNet.dll",
+        "lib/netstandard2.0/Leaf.xNet.xml"
+      ]
+    },
+    "ThreadGun/1.4.0": {
+      "sha512": "ZJAxvHzzy4FcDc/thJ7gYbPRfBFIc7hSXXHW8ozq32iG5F9dTsELgdz6oXVHWybY8kTDZRDstlI5tMn3v22XfQ==",
+      "type": "package",
+      "path": "threadgun/1.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/ThreadGun.dll",
+        "lib/net46/ThreadGun.dll",
+        "lib/net472/ThreadGun.dll",
+        "lib/netstandard2.0/ThreadGun.dll",
+        "threadgun.1.4.0.nupkg.sha512",
+        "threadgun.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0-windows7.0": []
+    "net6.0-windows7.0": [
+      "Leaf.xNet >= 5.2.10",
+      "ThreadGun >= 1.4.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\arsham\\.nuget\\packages\\": {},
@@ -14,11 +72,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arsham\\Desktop\\V2ray Account cracker\\V2ray Account cracker\\V2ray Account cracker.csproj",
+      "projectUniqueName": "C:\\Users\\arsham\\OneDrive\\Desktop\\V2ray Account cracker\\V2ray Account cracker\\V2ray Account cracker.csproj",
       "projectName": "V2ray Account cracker",
-      "projectPath": "C:\\Users\\arsham\\Desktop\\V2ray Account cracker\\V2ray Account cracker\\V2ray Account cracker.csproj",
+      "projectPath": "C:\\Users\\arsham\\OneDrive\\Desktop\\V2ray Account cracker\\V2ray Account cracker\\V2ray Account cracker.csproj",
       "packagesPath": "C:\\Users\\arsham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arsham\\Desktop\\V2ray Account cracker\\V2ray Account cracker\\obj\\",
+      "outputPath": "C:\\Users\\arsham\\OneDrive\\Desktop\\V2ray Account cracker\\V2ray Account cracker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +108,16 @@
     "frameworks": {
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Leaf.xNet": {
+            "target": "Package",
+            "version": "[5.2.10, )"
+          },
+          "ThreadGun": {
+            "target": "Package",
+            "version": "[1.4.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

@@ -6,6 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
+      "V2ray Account cracker/1.0.0": {
+        "dependencies": {
+          "Leaf.xNet": "5.2.10",
+          "ThreadGun": "1.4.0"
+        },
+        "runtime": {
+          "V2ray Account cracker.dll": {}
+        }
+      },
       "Leaf.xNet/5.2.10": {
         "runtime": {
           "lib/netstandard2.0/Leaf.xNet.dll": {
@@ -25,6 +34,11 @@
     }
   },
   "libraries": {
+    "V2ray Account cracker/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Leaf.xNet/5.2.10": {
       "type": "package",
       "serviceable": true,
