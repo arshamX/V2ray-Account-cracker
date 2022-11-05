@@ -6,7 +6,8 @@ namespace V2ray_Account_cracker
     {
         Constants info = new Constants();
         ThreadGun<string>? threads;
-        public int good = 0;
+        public static int good = 0;
+        public static int check = 0;
         public static ConcurrentQueue<string> hit = new ConcurrentQueue<string>();
         private Thread? updater;
         private bool flag = true;
@@ -25,8 +26,9 @@ namespace V2ray_Account_cracker
                 openFile.Title = "Load IPs";
                 if(openFile.ShowDialog() == DialogResult.OK)
                 {
+                    info.IPS.Clear();
                     info.IPS.AddRange(File.ReadAllLines(openFile.FileName));
-                    MessageBox.Show("IPS Loaded");
+                    MessageBox.Show($"{info.IPS.Count}IPS Loaded");
                     lblCount.Text = $"IPs : {info.IPS.Count}";
                 }
             }
@@ -39,16 +41,12 @@ namespace V2ray_Account_cracker
 
         private void update()
         {
-            while(flag)
+            while(true)
             {
-                string? newHit;
-                if(hit.TryDequeue(out newHit))
-                {
-                    good++;
-                    datagrid.Rows.Add(newHit);
-                    lblGoods.Text = $"Goods : {good}";
-                }
-
+                
+                    lblGoods.Text = $"Goods : {good.ToString()}";
+                lblcheck.Text = $"Checked : {check.ToString()}";
+                
             }
         }
 
@@ -92,7 +90,7 @@ namespace V2ray_Account_cracker
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            MessageBox.Show("Bye")
+            MessageBox.Show("Bye");
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
