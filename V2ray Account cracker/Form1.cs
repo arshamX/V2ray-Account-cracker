@@ -43,10 +43,13 @@ namespace V2ray_Account_cracker
         {
             while(true)
             {
-                
-                    lblGoods.Text = $"Goods : {good.ToString()}";
+                string? newIp;
+                if (hit.TryDequeue(out newIp))
+                {
+                    datagrid.Rows.Add(newIp);
+                }
+                lblGoods.Text = $"Goods : {good.ToString()}";
                 lblcheck.Text = $"Checked : {check.ToString()}";
-                
             }
         }
 

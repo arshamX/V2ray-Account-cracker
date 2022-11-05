@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "s3g6iKME7vzN9/+6+vIIL5OzOtaNOBxi26XviSPqlDH9YQQwCXpCXxWQ3ai+dqjTj4nraIiOg7LMHUEphO9z5w==",
+  "dgSpecHash": "3DQScLMM06O01GVKQCYaXDOwN3AINP4DyUhvM+cuhFb4u4qkG530xQqHRSYGI4fTP41WcoP5BMU4L4WBodBpVw==",
   "success": true,
-  "projectFilePath": "D:\\V2ray-Account-cracker\\V2ray Account cracker\\V2ray Account cracker.csproj",
+  "projectFilePath": "C:\\Users\\arsham\\OneDrive\\Desktop\\New folder\\V2ray-Account-cracker\\V2ray Account cracker\\V2ray Account cracker.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\reza\\.nuget\\packages\\leaf.xnet\\5.2.10\\leaf.xnet.5.2.10.nupkg.sha512",
-    "C:\\Users\\reza\\.nuget\\packages\\threadgun\\1.4.0\\threadgun.1.4.0.nupkg.sha512"
+    "C:\\Users\\arsham\\.nuget\\packages\\leaf.xnet\\5.2.10\\leaf.xnet.5.2.10.nupkg.sha512",
+    "C:\\Users\\arsham\\.nuget\\packages\\threadgun\\1.4.0\\threadgun.1.4.0.nupkg.sha512"
   ],
   "logs": []
 }
