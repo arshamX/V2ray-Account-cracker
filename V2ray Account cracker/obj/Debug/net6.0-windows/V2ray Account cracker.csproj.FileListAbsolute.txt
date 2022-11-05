@@ -18,3 +18,23 @@ C:\Users\arsham\OneDrive\Desktop\V2ray Account cracker\V2ray Account cracker\obj
 C:\Users\arsham\OneDrive\Desktop\V2ray Account cracker\V2ray Account cracker\bin\Debug\net6.0-windows\Leaf.xNet.dll
 C:\Users\arsham\OneDrive\Desktop\V2ray Account cracker\V2ray Account cracker\bin\Debug\net6.0-windows\ThreadGun.dll
 C:\Users\arsham\OneDrive\Desktop\V2ray Account cracker\V2ray Account cracker\obj\Debug\net6.0-windows\V2ray Account cracker.csproj.CopyComplete
+D:\V2ray-Account-cracker\V2ray Account cracker\bin\Debug\net6.0-windows\V2ray Account cracker.exe
+D:\V2ray-Account-cracker\V2ray Account cracker\bin\Debug\net6.0-windows\V2ray Account cracker.deps.json
+D:\V2ray-Account-cracker\V2ray Account cracker\bin\Debug\net6.0-windows\V2ray Account cracker.runtimeconfig.json
+D:\V2ray-Account-cracker\V2ray Account cracker\bin\Debug\net6.0-windows\V2ray Account cracker.dll
+D:\V2ray-Account-cracker\V2ray Account cracker\bin\Debug\net6.0-windows\V2ray Account cracker.pdb
+D:\V2ray-Account-cracker\V2ray Account cracker\bin\Debug\net6.0-windows\Leaf.xNet.dll
+D:\V2ray-Account-cracker\V2ray Account cracker\bin\Debug\net6.0-windows\ThreadGun.dll
+D:\V2ray-Account-cracker\V2ray Account cracker\obj\Debug\net6.0-windows\V2ray Account cracker.csproj.AssemblyReference.cache
+D:\V2ray-Account-cracker\V2ray Account cracker\obj\Debug\net6.0-windows\V2ray_Account_cracker.Form1.resources
+D:\V2ray-Account-cracker\V2ray Account cracker\obj\Debug\net6.0-windows\V2ray Account cracker.csproj.GenerateResource.cache
+D:\V2ray-Account-cracker\V2ray Account cracker\obj\Debug\net6.0-windows\V2ray Account cracker.GeneratedMSBuildEditorConfig.editorconfig
+D:\V2ray-Account-cracker\V2ray Account cracker\obj\Debug\net6.0-windows\V2ray Account cracker.AssemblyInfoInputs.cache
+D:\V2ray-Account-cracker\V2ray Account cracker\obj\Debug\net6.0-windows\V2ray Account cracker.AssemblyInfo.cs
+D:\V2ray-Account-cracker\V2ray Account cracker\obj\Debug\net6.0-windows\V2ray Account cracker.csproj.CoreCompileInputs.cache
+D:\V2ray-Account-cracker\V2ray Account cracker\obj\Debug\net6.0-windows\V2ray Account cracker.csproj.CopyComplete
+D:\V2ray-Account-cracker\V2ray Account cracker\obj\Debug\net6.0-windows\V2ray Account cracker.dll
+D:\V2ray-Account-cracker\V2ray Account cracker\obj\Debug\net6.0-windows\refint\V2ray Account cracker.dll
+D:\V2ray-Account-cracker\V2ray Account cracker\obj\Debug\net6.0-windows\V2ray Account cracker.pdb
+D:\V2ray-Account-cracker\V2ray Account cracker\obj\Debug\net6.0-windows\V2ray Account cracker.genruntimeconfig.cache
+D:\V2ray-Account-cracker\V2ray Account cracker\obj\Debug\net6.0-windows\ref\V2ray Account cracker.dll

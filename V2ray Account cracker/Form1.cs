@@ -92,12 +92,7 @@ namespace V2ray_Account_cracker
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            StreamWriter writer = new StreamWriter("hits.txt", true);
-            foreach(var ip in datagrid.Rows)
-            {
-                writer.WriteLine(ip.ToString());
-            }
-            writer.Close();
+            MessageBox.Show("Bye")
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)

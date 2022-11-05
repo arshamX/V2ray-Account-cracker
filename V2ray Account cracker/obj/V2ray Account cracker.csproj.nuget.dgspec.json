@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arsham\\OneDrive\\Desktop\\V2ray Account cracker\\V2ray Account cracker\\V2ray Account cracker.csproj": {}
+    "D:\\V2ray-Account-cracker\\V2ray Account cracker\\V2ray Account cracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arsham\\OneDrive\\Desktop\\V2ray Account cracker\\V2ray Account cracker\\V2ray Account cracker.csproj": {
+    "D:\\V2ray-Account-cracker\\V2ray Account cracker\\V2ray Account cracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arsham\\OneDrive\\Desktop\\V2ray Account cracker\\V2ray Account cracker\\V2ray Account cracker.csproj",
+        "projectUniqueName": "D:\\V2ray-Account-cracker\\V2ray Account cracker\\V2ray Account cracker.csproj",
         "projectName": "V2ray Account cracker",
-        "projectPath": "C:\\Users\\arsham\\OneDrive\\Desktop\\V2ray Account cracker\\V2ray Account cracker\\V2ray Account cracker.csproj",
-        "packagesPath": "C:\\Users\\arsham\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arsham\\OneDrive\\Desktop\\V2ray Account cracker\\V2ray Account cracker\\obj\\",
+        "projectPath": "D:\\V2ray-Account-cracker\\V2ray Account cracker\\V2ray Account cracker.csproj",
+        "packagesPath": "C:\\Users\\reza\\.nuget\\packages\\",
+        "outputPath": "D:\\V2ray-Account-cracker\\V2ray Account cracker\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\arsham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\reza\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -72,7 +72,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
